@@ -15,13 +15,13 @@ def print(self):
 def multiplication(self,b)
     numerator = self.numerator*b.numerator
     denominator = self.denominator*b.denominator
-    r=fraction(numerator;denominator)
+    r=Fraction(numerator;denominator)
     r.print()
 
 print(o.numerator)
 print(o.denominator)
-a=fraction(3,2)
-b=fraction(6,5)
+a=Fraction(3,2)
+b=Fraction(6,5)
 a.print()
 b.print()
 r=a.multiplication(b)
